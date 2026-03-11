@@ -1,0 +1,36 @@
+#wheel{
+width:200px;
+height:200px;
+border-radius:50%;
+margin:20px auto;
+border:10px solid #333;
+
+background:conic-gradient(
+red 0deg 72deg,
+yellow 72deg 144deg,
+green 144deg 216deg,
+blue 216deg 288deg,
+orange 288deg 360deg
+);
+
+transition:transform 3s;
+}
+
+.label{
+position:absolute;
+left:50%;
+top:50%;
+transform-origin:0 0;
+font-size:14px;
+font-weight:bold;
+color:white;
+
+
+#pointer {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  font-size: 30px;
+  z-index: 10;
+}
